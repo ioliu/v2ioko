@@ -1,8 +1,8 @@
 FROM alpine:edge
 
-ARG AUUID="24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+ARG AUUID="12345678-0000-6666-0000-123456781234"
 ARG CADDYIndexPage="https://github.com/AYJCSGM/mikutap/archive/master.zip"
-ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
+ARG ParameterSSENCYPT="aes-128-gcm"
 ARG PORT=80
 
 ADD etc/Caddyfile /tmp/Caddyfile
